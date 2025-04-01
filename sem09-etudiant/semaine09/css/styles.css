@@ -95,10 +95,15 @@ nav a:hover{
 }
 
 /* Exercice 16 */
-
+.exercice16 p:not(:lang(fr)){
+    color: red;
+}
 
 /* Exercice 17 */
-
+.exercice17 [type='value']:checked label{
+    color: red;
+    
+}
 
 /* Exercice 18 */
 
