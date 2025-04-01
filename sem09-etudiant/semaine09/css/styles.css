@@ -62,19 +62,37 @@ nav li:nth-child(2){
 }
 
 /* Exercice 11 */
-
+.exercice11 ul:nth-child(n){
+    border: 3px solid red;
+}
 
 /* Exercice 12 */
-
+.exercice12 ul:hover:first-child{
+    border: 3px solid red;
+}
 
 /* Exercice 13 */
-
+.exercice13 img[src^='images/nuage.jpg']{
+    border: 3px solid red;
+}
 
 /* Exercice 14 */
-
+nav a:hover{
+    background-color: #BF2A2A;
+    border-bottom: 3px solid black;
+    color: black;
+}
 
 /* Exercice 15 */
+.exercice15 h2::selection{
+    background-color: black;
+    color: white;
+}
 
+.exercice15 p::selection{
+    background-color: gray;
+    color: white;
+}
 
 /* Exercice 16 */
 
