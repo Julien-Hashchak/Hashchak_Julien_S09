@@ -2,34 +2,64 @@
 
 
 /* Exercice 01 */
-
+nav li:nth-child(2){
+    margin: 0 20px;
+}
 
 /* Exercice 02 */
-
+.exercice02 blockquote::first-letter{
+    color: red;
+    font-size: 5rem;
+}
 
 /* Exercice 03 */
-
+.exercice03 blockquote::first-line{
+    color: red;
+    font-weight: bold;
+}
 
 /* Exercice 04 */
-
+.exercice04 p:last-of-type{
+    color: red;
+}
 
 /* Exercice 05 */
-
+.exercice05 a[href^='https://']{
+    content: 'key';
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-left: 5px;
+}
 
 /* Exercice 06 */
-
+.exercice06 li:nth-child(2n){
+   background-color: red;
+}
 
 /* Exercice 07 */
-
+.exercice07 li:nth-child(2n+1){
+    background-color: red;
+}
 
 /* Exercice 08 */
-
+.exercice08 li:nth-child(3n){
+    background-color: red;
+}
 
 /* Exercice 09 */
-
+.exercice09 li:nth-child(99){
+    background-color: red;
+}
 
 /* Exercice 10 */
-
+.exercice10 li:nth-child(n+14){
+    background-color: red;
+}
+.exercice10 li:nth-child(n+24){
+    background-color: #666;
+}
 
 /* Exercice 11 */
 
