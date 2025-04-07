@@ -108,7 +108,9 @@ nav a:hover{
 /* Exercice 18 */
 
 
-
+.word :last-child{
+    color: #640101;
+}
 
 
 
